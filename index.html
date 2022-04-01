@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guesscity</title>
-    <link rel="stylesheet" href="src/resources/css/reset.css">
+    <link rel="stylesheet" href="src/resources/css/reset.css" />
     <link rel="stylesheet" href="src/resources/css/navBar.css" />
-    <link rel="stylesheet" href="src/resources/css/app.css">
+    <link rel="stylesheet" href="src/resources/css/app.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +19,52 @@
     <nav>
       <ul class="navList">
         <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Map Mode</a></li>
+        <li><a href="game.html">Game Mode</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
-    <h1>Home</h1>
-
+    <header>
+      <div id="headerImg">
+        <img src="src/resources/images/guessityIcon.png" alt="Guessity icon" />
+      </div>
+    </header>
+    <main>
+      <section class="GeneralInstruction">
+        <h2>General Instructions</h2>
+        <h3>How to Play</h3>
+        <ol>
+          <li>Click start game</li>
+          <li>Choose game difficulty</li>
+          <li>Explore map, guess what city is displayed</li>
+          <li>Select your guessed city in dropdown selection menu</li>
+          <li style="margin-bottom: 20px">
+            See if you guessed correctly or not!
+          </li>
+        </ol>
+        <h3>Controls</h3>
+        <p style="margin-bottom: 20px">
+          Arrow Keys: Pan around the map <br />
+          Mouse Click: Reveals information of intersection in status bar under
+          map <br />
+          Zoom: Zoom in or out of the map <br />
+          Zoom Fit: Reset zoom level to entire map <br />
+          "Choose a map" Dropdown: List of all possible cities in game <br />
+          Start Game: Click to start game <br />
+          Find Directions: Click to find the directions between two
+          intersections <br />
+          Exit: Click to close application <br />
+          Settings: Click to adjust application settings <br />
+          Status Bar (under map): Contains information of system errors and
+          intersection information upon mouse click<br />
+        </p>
+        <p>
+          *Street and intersection names can be partial names or complete names
+          <br />
+          Status bar (under map): Contains additional information such as system
+          errors, intersection names, street names, and travel time
+        </p>
+      </section>
+    </main>
   </body>
 </html>
