@@ -1,0 +1,29 @@
+footer {
+    background-color: rgb(1, 1, 57);
+    margin-top: 30px;
+    height: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin-top: auto;
+  }
+  .footerList {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  footer>ul>li{
+    /* Center vertically and horizontally */
+    position: relative;
+    display:inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid azure;
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    transition: 1s;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  footer>ul>li:first-child{
+    border-left: 1px solid azure;
+  }
+  
+ 
